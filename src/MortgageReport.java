@@ -16,7 +16,7 @@ public class MortgageReport {
         System.out.println("----------------");
 
         for (double balance : calculator.getRemainingBalances()) {
-            System.out.println(NumberFormat.getCurrencyInstance().format(balance));
+            System.out.println(currency.format(balance));
         }
     }
 
